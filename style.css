@@ -1,10 +1,9 @@
-/* Reset CSS */
+/* ===== RESET & BASE STYLES ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* End of Reset CSS */
 
 body {
   font-family: "Inter", sans-serif;
@@ -14,6 +13,7 @@ body {
   padding: 20px;
 }
 
+/* ===== LAYOUT ===== */
 header {
   padding: 20px;
   border-bottom: 1px solid #ddd;
@@ -28,6 +28,7 @@ footer {
   border-top: 1px solid #ddd;
 }
 
+/* ===== TYPOGRAPHY ===== */
 h1 {
   font-size: 30px;
   font-weight: 600;
@@ -44,6 +45,7 @@ h3 {
   color: #0765bd;
 }
 
+/* ===== SECTION STYLES ===== */
 section {
   padding: 12px;
 }
@@ -52,10 +54,12 @@ article {
   padding: 12px;
 }
 
+/* ===== LIST STYLES ===== */
 li {
   padding: 2px;
 }
 
+/* ===== SPECIFIC ELEMENT STYLES ===== */
 #job-title {
   font-size: 15px;
   font-weight: 600;
