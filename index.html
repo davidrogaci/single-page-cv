@@ -3,38 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Curriculum Vitae of Oscar David Rodriguez - Junior Frontend Developer"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" />
     <title>Curriculum Vitae - Oscar David Rodriguez</title>
   </head>
   <body>
-    <nav>
-      <section>
-        <h1>Oscar David Rodriguez</h1>
-        <h2>Junior Frontend Developer</h2>
-        <a
-          href="https://www.google.com/maps/place/20+de+enero+3724,+Montevideo,+Uruguay"
-          >20 de enero 3724, Montevideo, Uruguay</a
-        >
-        <p>+598 99 669 381</p>
-        <p>
-          <a href="mailto:davdirogaci5@gmail.com">davdirogaci5@gmail.com</a>
-        </p>
-      </section>
-    </nav>
-    <main>
-      <section>
-        <h2>Skills</h2>
+    <header role="banner">
+      <nav role="navigation">
+        <section>
+          <h1>Oscar David Rodriguez</h1>
+          <h2>Junior Frontend Developer</h2>
+          <address>
+            <a
+              href="https://www.google.com/maps/place/20+de+enero+3724,+Montevideo,+Uruguay"
+              >20 de enero 3724, Montevideo, Uruguay</a
+            >
+            <p>+598 99 669 381</p>
+            <p>
+              <a href="mailto:davdirogaci5@gmail.com">davdirogaci5@gmail.com</a>
+            </p>
+          </address>
+        </section>
+      </nav>
+    </header>
+    <main role="main">
+      <section aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
         <p>
           HTML, CSS, JavaScript, React, Angular, TypeScript, Tailwind CSS, Git,
           GitHub.
         </p>
       </section>
-      <section>
+      <section aria-labelledby="education-heading">
         <article>
-          <h2>Education</h2>
+          <h2 id="education-heading">Education</h2>
           <h3>CoderHouse</h3>
-          <time>2023 - 2024</time>
+          <time datetime="2023/2024">2023 - 2024</time>
           <p>Frontend Developer Career</p>
           <ul>
             <li>HTML & CSS</li>
@@ -43,17 +51,20 @@
           </ul>
         </article>
       </section>
-      <section>
-        <h2>Experience</h2>
+      <section aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
         <h3>Freelance Projects</h3>
-        <time>2023 - Present</time>
+        <time datetime="2023/Present">2023 - Present</time>
         <article>
           <h4>Ecommerce Sneakers</h4>
           <p>
             <strong>Technologies used:</strong> HTML, CSS, JavaScript, React,
             Tailwind CSS, Git, GitHub.
           </p>
-          <a href="https://ecommerce-rodriguez.vercel.app/" target="_blank"
+          <a
+            href="https://ecommerce-rodriguez.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             >View Project</a
           >
         </article>
@@ -63,7 +74,10 @@
             <strong>Technologies used:</strong> HTML, CSS, JavaScript,
             Bootstrap, Git, GitHub.
           </p>
-          <a href="https://jordan-1-retro-spider.vercel.app/" target="_blank"
+          <a
+            href="https://jordan-1-retro-spider.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             >View Project</a
           >
         </article>
@@ -76,22 +90,38 @@
           <a
             href="https://calculadora-prestamos-one.vercel.app/"
             target="_blank"
+            rel="noopener noreferrer"
             >View Project</a
           >
         </article>
       </section>
     </main>
 
-    <footer>
-      <section>
-        <h2>Across the Internet</h2>
-        <p>
-          <a href="https://www.linkedin.com/in/davidrogaci/" target="_blank"
-            >LinkedIn</a
-          >
-          <a href="https://github.com/davidrogaci" target="_blank">GitHub</a>
-          <a href="https://www.davidrogaci.dev/" target="_blank">Portfolio</a>
-        </p>
+    <footer role="contentinfo">
+      <section aria-labelledby="social-heading">
+        <h2 id="social-heading">Across the Internet</h2>
+        <nav>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/davidrogaci/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/davidrogaci"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://www.davidrogaci.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Portfolio</a
+            >
+          </p>
+        </nav>
       </section>
     </footer>
   </body>
