@@ -27,14 +27,23 @@ footer {
   padding: 20px;
   border-top: 1px solid #ddd;
 }
+
 h1 {
   font-size: 30px;
   font-weight: 600;
 }
+
 h2 {
   font-size: 15px;
   font-weight: 600;
 }
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0765bd;
+}
+
 section {
   padding: 12px;
 }
@@ -46,6 +55,7 @@ article {
 li {
   padding: 2px;
 }
+
 #job-title {
   font-size: 15px;
   font-weight: 600;
@@ -74,4 +84,114 @@ li {
   font-size: 15px;
   font-weight: 600;
   color: #16922d;
+}
+
+address {
+  font-style: normal;
+  margin: 16px 0;
+}
+
+address a,
+address p {
+  margin-bottom: 8px;
+  display: block;
+}
+
+a {
+  color: #16922d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0d6e1f;
+  text-decoration: underline;
+}
+
+time {
+  display: block;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #e8f5e9;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.project {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #e8f5e9;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #16922d;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  .skills-list {
+    gap: 6px;
+  }
+
+  .skills-list li {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .social-links a {
+    width: 100%;
+    text-align: center;
+  }
 }
