@@ -1,5 +1,7 @@
 # Single Page CV
 
+[![GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/davidrogaci/single-page-cv)
+
 A modern, responsive single-page curriculum vitae template built with HTML and CSS.
 
 ## Features
